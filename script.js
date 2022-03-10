@@ -1,0 +1,7 @@
+const main = document.createElement("main")
+document.body.appendChild(main)
+const titulo = document.createElement("h1")
+const node = document.createTextNode("Hello, World!")
+titulo.appendChild(node)
+main.appendChild(titulo)
+console.log(main)
